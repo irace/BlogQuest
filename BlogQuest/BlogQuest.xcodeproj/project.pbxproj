@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D479F77D63449D99634A0A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D72C374EF3FF4EA49975B489 /* libPods.a */; };
+		934BD661191C9B9F00C48F7E /* BQFolloweeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD660191C9B9F00C48F7E /* BQFolloweeNode.m */; };
+		934BD664191CA22500C48F7E /* BQTumblrDataAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD663191CA22500C48F7E /* BQTumblrDataAggregator.m */; };
+		934BD667191CA32800C48F7E /* BQPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD666191CA32800C48F7E /* BQPost.m */; };
+		934BD66A191CA46500C48F7E /* BQDashboardPhotoPostAggregationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD669191CA46500C48F7E /* BQDashboardPhotoPostAggregationOperation.m */; };
+		934BD66D191CAE8200C48F7E /* BQPhotoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD66C191CAE8200C48F7E /* BQPhotoNode.m */; };
+		9382F171191CBD3C00B914E8 /* BQVideoScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F170191CBD3C00B914E8 /* BQVideoScene.m */; };
+		9382F177191CC67400B914E8 /* BQHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F176191CC67400B914E8 /* BQHUDView.m */; };
+		9382F179191CC88E00B914E8 /* ArcadepixPlus.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9382F178191CC88E00B914E8 /* ArcadepixPlus.ttf */; };
+		9382F17D191D06DC00B914E8 /* BQGameOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9382F17C191D06DC00B914E8 /* BQGameOverView.m */; };
+		939A830A191C464D00D911DC /* BQCoinNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A8309191C464D00D911DC /* BQCoinNode.m */; };
+		939A830D191C46AB00D911DC /* BQCollisions.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A830C191C46AB00D911DC /* BQCollisions.m */; };
+		939A8310191C56B900D911DC /* BQCollectableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A830F191C56B900D911DC /* BQCollectableManager.m */; };
+		93A77846191D1F0600806106 /* 79__plagasul__long-scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A77845191D1F0600806106 /* 79__plagasul__long-scream.mp3 */; };
+		93A77848191D20CC00806106 /* holy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A77847191D20CC00806106 /* holy.mp3 */; };
+		93A7784A191D21D700806106 /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A77849191D21D700806106 /* jump.mp3 */; };
+		93F069BF191C686800B66837 /* BQUserNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F069BE191C686800B66837 /* BQUserNode.m */; };
+		93F06A23191C7A9A00B66837 /* BQCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F06A22191C7A9A00B66837 /* BQCredentials.m */; };
+		93F06A26191C941900B66837 /* BQAvatarNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F06A25191C941900B66837 /* BQAvatarNode.m */; };
+		D368D80F191C99080037CDE1 /* BQBackgroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D368D80E191C99080037CDE1 /* BQBackgroundNode.m */; };
+		D368D815191C99310037CDE1 /* BQEnemyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D368D812191C99310037CDE1 /* BQEnemyManager.m */; };
+		D368D816191C99310037CDE1 /* BQEnemyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D368D814191C99310037CDE1 /* BQEnemyNode.m */; };
+		D368D820191C995C0037CDE1 /* BQGroundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D368D81F191C995C0037CDE1 /* BQGroundNode.m */; };
+		D368D829191CA1070037CDE1 /* bump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D368D824191CA1070037CDE1 /* bump.mp3 */; };
+		D368D82A191CA1070037CDE1 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D368D825191CA1070037CDE1 /* coin.mp3 */; };
+		D368D82C191CA1070037CDE1 /* punch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D368D827191CA1070037CDE1 /* punch.mp3 */; };
+		D368D82D191CA1070037CDE1 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D368D828191CA1070037CDE1 /* title.mp3 */; };
+		D368D82F191CA1E00037CDE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D368D82E191CA1E00037CDE1 /* AVFoundation.framework */; };
+		D368D835191CA42D0037CDE1 /* SKNode+Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = D368D834191CA42D0037CDE1 /* SKNode+Audio.m */; };
+		D368D839191CA7490037CDE1 /* game_loop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D368D838191CA7490037CDE1 /* game_loop.mp3 */; };
+		D368D842191D00460037CDE1 /* SKAction+BlogQuest.m in Sources */ = {isa = PBXBuildFile; fileRef = D368D841191D00460037CDE1 /* SKAction+BlogQuest.m */; };
+		D368D844191D12340037CDE1 /* intro_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D368D843191D12340037CDE1 /* intro_movie.mp4 */; };
+		D3BC9704191C3C2B00CD5428 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BC9703191C3C2B00CD5428 /* Images.xcassets */; };
+		D3E5B44F191C8F170021A7DC /* BQBlinkingLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E5B44E191C8F170021A7DC /* BQBlinkingLabelNode.m */; };
+		D3E5B452191C8F2B0021A7DC /* BQIntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E5B451191C8F2B0021A7DC /* BQIntroScene.m */; };
+		D3FA7ABF191BE350001F2B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA7ABE191BE350001F2B47 /* Foundation.framework */; };
+		D3FA7AC1191BE350001F2B47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA7AC0191BE350001F2B47 /* CoreGraphics.framework */; };
+		D3FA7AC3191BE350001F2B47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA7AC2191BE350001F2B47 /* UIKit.framework */; };
+		D3FA7AC5191BE350001F2B47 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA7AC4191BE350001F2B47 /* SpriteKit.framework */; };
+		D3FA7ACB191BE350001F2B47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3FA7AC9191BE350001F2B47 /* InfoPlist.strings */; };
+		D3FA7ACD191BE350001F2B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA7ACC191BE350001F2B47 /* main.m */; };
+		D3FA7AD1191BE350001F2B47 /* BQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA7AD0191BE350001F2B47 /* BQAppDelegate.m */; };
+		D3FA7AD4191BE350001F2B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA7AD2191BE350001F2B47 /* Main.storyboard */; };
+		D3FA7AD7191BE350001F2B47 /* BQRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA7AD6191BE350001F2B47 /* BQRootViewController.m */; };
+		D3FA7ADA191BE350001F2B47 /* BQMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA7AD9191BE350001F2B47 /* BQMainScene.m */; };
+		D3FA7AE5191BE350001F2B47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA7AE4191BE350001F2B47 /* XCTest.framework */; };
+		D3FA7AE6191BE350001F2B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA7ABE191BE350001F2B47 /* Foundation.framework */; };
+		D3FA7AE7191BE350001F2B47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FA7AC2191BE350001F2B47 /* UIKit.framework */; };
+		D3FA7AEF191BE350001F2B47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3FA7AED191BE350001F2B47 /* InfoPlist.strings */; };
+		D3FA7AF1191BE350001F2B47 /* BlogQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA7AF0191BE350001F2B47 /* BlogQuestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3FA7AE8191BE350001F2B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FA7AB3191BE350001F2B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FA7ABA191BE350001F2B47;
+			remoteInfo = BlogQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255C2DE4DB9139223A012311 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		85C9AA1A42661368D874279D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		934BD65E191C9A3600C48F7E /* BQCollectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQCollectable.h; path = Source/BQCollectable.h; sourceTree = "<group>"; };
+		934BD65F191C9B9F00C48F7E /* BQFolloweeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQFolloweeNode.h; path = Source/BQFolloweeNode.h; sourceTree = "<group>"; };
+		934BD660191C9B9F00C48F7E /* BQFolloweeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQFolloweeNode.m; path = Source/BQFolloweeNode.m; sourceTree = "<group>"; };
+		934BD662191CA22500C48F7E /* BQTumblrDataAggregator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQTumblrDataAggregator.h; path = Source/BQTumblrDataAggregator.h; sourceTree = "<group>"; };
+		934BD663191CA22500C48F7E /* BQTumblrDataAggregator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQTumblrDataAggregator.m; path = Source/BQTumblrDataAggregator.m; sourceTree = "<group>"; };
+		934BD665191CA32800C48F7E /* BQPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQPost.h; sourceTree = "<group>"; };
+		934BD666191CA32800C48F7E /* BQPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQPost.m; sourceTree = "<group>"; };
+		934BD668191CA46500C48F7E /* BQDashboardPhotoPostAggregationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQDashboardPhotoPostAggregationOperation.h; path = Source/BQDashboardPhotoPostAggregationOperation.h; sourceTree = "<group>"; };
+		934BD669191CA46500C48F7E /* BQDashboardPhotoPostAggregationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQDashboardPhotoPostAggregationOperation.m; path = Source/BQDashboardPhotoPostAggregationOperation.m; sourceTree = "<group>"; };
+		934BD66B191CAE8200C48F7E /* BQPhotoNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQPhotoNode.h; path = Source/BQPhotoNode.h; sourceTree = "<group>"; };
+		934BD66C191CAE8200C48F7E /* BQPhotoNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQPhotoNode.m; path = Source/BQPhotoNode.m; sourceTree = "<group>"; };
+		9382F16F191CBD3C00B914E8 /* BQVideoScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQVideoScene.h; path = Source/BQVideoScene.h; sourceTree = "<group>"; };
+		9382F170191CBD3C00B914E8 /* BQVideoScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQVideoScene.m; path = Source/BQVideoScene.m; sourceTree = "<group>"; };
+		9382F175191CC67400B914E8 /* BQHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQHUDView.h; sourceTree = "<group>"; };
+		9382F176191CC67400B914E8 /* BQHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQHUDView.m; sourceTree = "<group>"; };
+		9382F178191CC88E00B914E8 /* ArcadepixPlus.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ArcadepixPlus.ttf; sourceTree = "<group>"; };
+		9382F17B191D06DC00B914E8 /* BQGameOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQGameOverView.h; path = Source/BQGameOverView.h; sourceTree = "<group>"; };
+		9382F17C191D06DC00B914E8 /* BQGameOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQGameOverView.m; path = Source/BQGameOverView.m; sourceTree = "<group>"; };
+		939A8308191C464D00D911DC /* BQCoinNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQCoinNode.h; path = Source/BQCoinNode.h; sourceTree = "<group>"; };
+		939A8309191C464D00D911DC /* BQCoinNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQCoinNode.m; path = Source/BQCoinNode.m; sourceTree = "<group>"; };
+		939A830B191C46AA00D911DC /* BQCollisions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQCollisions.h; path = Source/BQCollisions.h; sourceTree = "<group>"; };
+		939A830C191C46AB00D911DC /* BQCollisions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQCollisions.m; path = Source/BQCollisions.m; sourceTree = "<group>"; };
+		939A830E191C56B900D911DC /* BQCollectableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQCollectableManager.h; path = Source/BQCollectableManager.h; sourceTree = "<group>"; };
+		939A830F191C56B900D911DC /* BQCollectableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQCollectableManager.m; path = Source/BQCollectableManager.m; sourceTree = "<group>"; };
+		93A77845191D1F0600806106 /* 79__plagasul__long-scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "79__plagasul__long-scream.mp3"; sourceTree = "<group>"; };
+		93A77847191D20CC00806106 /* holy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = holy.mp3; sourceTree = "<group>"; };
+		93A77849191D21D700806106 /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
+		93F069BD191C686800B66837 /* BQUserNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQUserNode.h; path = Source/BQUserNode.h; sourceTree = "<group>"; };
+		93F069BE191C686800B66837 /* BQUserNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQUserNode.m; path = Source/BQUserNode.m; sourceTree = "<group>"; };
+		93F06A21191C7A9A00B66837 /* BQCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQCredentials.h; path = Source/BQCredentials.h; sourceTree = "<group>"; };
+		93F06A22191C7A9A00B66837 /* BQCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQCredentials.m; path = Source/BQCredentials.m; sourceTree = "<group>"; };
+		93F06A24191C941900B66837 /* BQAvatarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQAvatarNode.h; sourceTree = "<group>"; };
+		93F06A25191C941900B66837 /* BQAvatarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQAvatarNode.m; sourceTree = "<group>"; };
+		D368D80D191C99080037CDE1 /* BQBackgroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQBackgroundNode.h; path = Source/BQBackgroundNode.h; sourceTree = "<group>"; };
+		D368D80E191C99080037CDE1 /* BQBackgroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQBackgroundNode.m; path = Source/BQBackgroundNode.m; sourceTree = "<group>"; };
+		D368D811191C99310037CDE1 /* BQEnemyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQEnemyManager.h; path = Source/BQEnemyManager.h; sourceTree = "<group>"; };
+		D368D812191C99310037CDE1 /* BQEnemyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQEnemyManager.m; path = Source/BQEnemyManager.m; sourceTree = "<group>"; };
+		D368D813191C99310037CDE1 /* BQEnemyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQEnemyNode.h; path = Source/BQEnemyNode.h; sourceTree = "<group>"; };
+		D368D814191C99310037CDE1 /* BQEnemyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQEnemyNode.m; path = Source/BQEnemyNode.m; sourceTree = "<group>"; };
+		D368D81E191C995C0037CDE1 /* BQGroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQGroundNode.h; path = Source/BQGroundNode.h; sourceTree = "<group>"; };
+		D368D81F191C995C0037CDE1 /* BQGroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQGroundNode.m; path = Source/BQGroundNode.m; sourceTree = "<group>"; };
+		D368D824191CA1070037CDE1 /* bump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bump.mp3; sourceTree = "<group>"; };
+		D368D825191CA1070037CDE1 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		D368D827191CA1070037CDE1 /* punch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = punch.mp3; sourceTree = "<group>"; };
+		D368D828191CA1070037CDE1 /* title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = title.mp3; sourceTree = "<group>"; };
+		D368D82E191CA1E00037CDE1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D368D833191CA42D0037CDE1 /* SKNode+Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKNode+Audio.h"; path = "Source/SKNode+Audio.h"; sourceTree = "<group>"; };
+		D368D834191CA42D0037CDE1 /* SKNode+Audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKNode+Audio.m"; path = "Source/SKNode+Audio.m"; sourceTree = "<group>"; };
+		D368D838191CA7490037CDE1 /* game_loop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_loop.mp3; sourceTree = "<group>"; };
+		D368D840191D00460037CDE1 /* SKAction+BlogQuest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKAction+BlogQuest.h"; path = "Source/SKAction+BlogQuest.h"; sourceTree = "<group>"; };
+		D368D841191D00460037CDE1 /* SKAction+BlogQuest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKAction+BlogQuest.m"; path = "Source/SKAction+BlogQuest.m"; sourceTree = "<group>"; };
+		D368D843191D12340037CDE1 /* intro_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_movie.mp4; sourceTree = "<group>"; };
+		D3BC9703191C3C2B00CD5428 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3E5B44D191C8F170021A7DC /* BQBlinkingLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQBlinkingLabelNode.h; path = Source/BQBlinkingLabelNode.h; sourceTree = "<group>"; };
+		D3E5B44E191C8F170021A7DC /* BQBlinkingLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQBlinkingLabelNode.m; path = Source/BQBlinkingLabelNode.m; sourceTree = "<group>"; };
+		D3E5B450191C8F2B0021A7DC /* BQIntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQIntroScene.h; path = Source/BQIntroScene.h; sourceTree = "<group>"; };
+		D3E5B451191C8F2B0021A7DC /* BQIntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQIntroScene.m; path = Source/BQIntroScene.m; sourceTree = "<group>"; };
+		D3FA7ABB191BE350001F2B47 /* BlogQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA7ABE191BE350001F2B47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3FA7AC0191BE350001F2B47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3FA7AC2191BE350001F2B47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3FA7AC4191BE350001F2B47 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D3FA7AC8191BE350001F2B47 /* BlogQuest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogQuest-Info.plist"; sourceTree = "<group>"; };
+		D3FA7ACA191BE350001F2B47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3FA7ACC191BE350001F2B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3FA7ACE191BE350001F2B47 /* BlogQuest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlogQuest-Prefix.pch"; sourceTree = "<group>"; };
+		D3FA7ACF191BE350001F2B47 /* BQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BQAppDelegate.h; sourceTree = "<group>"; };
+		D3FA7AD0191BE350001F2B47 /* BQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQAppDelegate.m; sourceTree = "<group>"; };
+		D3FA7AD3191BE350001F2B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FA7AD5191BE350001F2B47 /* BQRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BQRootViewController.h; sourceTree = "<group>"; };
+		D3FA7AD6191BE350001F2B47 /* BQRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQRootViewController.m; sourceTree = "<group>"; };
+		D3FA7AD8191BE350001F2B47 /* BQMainScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BQMainScene.h; sourceTree = "<group>"; };
+		D3FA7AD9191BE350001F2B47 /* BQMainScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BQMainScene.m; sourceTree = "<group>"; };
+		D3FA7AE3191BE350001F2B47 /* BlogQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA7AE4191BE350001F2B47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D3FA7AEC191BE350001F2B47 /* BlogQuestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogQuestTests-Info.plist"; sourceTree = "<group>"; };
+		D3FA7AEE191BE350001F2B47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3FA7AF0191BE350001F2B47 /* BlogQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogQuestTests.m; sourceTree = "<group>"; };
+		D72C374EF3FF4EA49975B489 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FA7AB8191BE350001F2B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D368D82F191CA1E00037CDE1 /* AVFoundation.framework in Frameworks */,
+				D3FA7AC1191BE350001F2B47 /* CoreGraphics.framework in Frameworks */,
+				D3FA7AC3191BE350001F2B47 /* UIKit.framework in Frameworks */,
+				D3FA7AC5191BE350001F2B47 /* SpriteKit.framework in Frameworks */,
+				D3FA7ABF191BE350001F2B47 /* Foundation.framework in Frameworks */,
+				4D479F77D63449D99634A0A2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA7AE0191BE350001F2B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA7AE5191BE350001F2B47 /* XCTest.framework in Frameworks */,
+				D3FA7AE7191BE350001F2B47 /* UIKit.framework in Frameworks */,
+				D3FA7AE6191BE350001F2B47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE7711A482E4700A1EE0F7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C9AA1A42661368D874279D /* Pods.debug.xcconfig */,
+				255C2DE4DB9139223A012311 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9382F174191CC52600B914E8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA7AD8191BE350001F2B47 /* BQMainScene.h */,
+				D3FA7AD9191BE350001F2B47 /* BQMainScene.m */,
+				D3E5B450191C8F2B0021A7DC /* BQIntroScene.h */,
+				D3E5B451191C8F2B0021A7DC /* BQIntroScene.m */,
+				9382F16F191CBD3C00B914E8 /* BQVideoScene.h */,
+				9382F170191CBD3C00B914E8 /* BQVideoScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		9382F17A191D05EA00B914E8 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				9382F175191CC67400B914E8 /* BQHUDView.h */,
+				9382F176191CC67400B914E8 /* BQHUDView.m */,
+				9382F17B191D06DC00B914E8 /* BQGameOverView.h */,
+				9382F17C191D06DC00B914E8 /* BQGameOverView.m */,
+			);
+			name = Subviews;
+			sourceTree = "<group>";
+		};
+		939A8303191C3DC300D911DC /* Collectables */ = {
+			isa = PBXGroup;
+			children = (
+				939A8308191C464D00D911DC /* BQCoinNode.h */,
+				939A8309191C464D00D911DC /* BQCoinNode.m */,
+				939A830E191C56B900D911DC /* BQCollectableManager.h */,
+				939A830F191C56B900D911DC /* BQCollectableManager.m */,
+				934BD65E191C9A3600C48F7E /* BQCollectable.h */,
+				934BD65F191C9B9F00C48F7E /* BQFolloweeNode.h */,
+				934BD660191C9B9F00C48F7E /* BQFolloweeNode.m */,
+			);
+			name = Collectables;
+			sourceTree = "<group>";
+		};
+		93F069C0191C688400B66837 /* Tumblr */ = {
+			isa = PBXGroup;
+			children = (
+				93F06A21191C7A9A00B66837 /* BQCredentials.h */,
+				93F06A22191C7A9A00B66837 /* BQCredentials.m */,
+				934BD662191CA22500C48F7E /* BQTumblrDataAggregator.h */,
+				934BD663191CA22500C48F7E /* BQTumblrDataAggregator.m */,
+				934BD665191CA32800C48F7E /* BQPost.h */,
+				934BD666191CA32800C48F7E /* BQPost.m */,
+				934BD668191CA46500C48F7E /* BQDashboardPhotoPostAggregationOperation.h */,
+				934BD669191CA46500C48F7E /* BQDashboardPhotoPostAggregationOperation.m */,
+			);
+			name = Tumblr;
+			sourceTree = "<group>";
+		};
+		D368D80C191C98F90037CDE1 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				D368D80D191C99080037CDE1 /* BQBackgroundNode.h */,
+				D368D80E191C99080037CDE1 /* BQBackgroundNode.m */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		D368D810191C99200037CDE1 /* Enemies */ = {
+			isa = PBXGroup;
+			children = (
+				D368D811191C99310037CDE1 /* BQEnemyManager.h */,
+				D368D812191C99310037CDE1 /* BQEnemyManager.m */,
+				D368D813191C99310037CDE1 /* BQEnemyNode.h */,
+				D368D814191C99310037CDE1 /* BQEnemyNode.m */,
+			);
+			name = Enemies;
+			sourceTree = "<group>";
+		};
+		D368D821191C99600037CDE1 /* Ground */ = {
+			isa = PBXGroup;
+			children = (
+				D368D81E191C995C0037CDE1 /* BQGroundNode.h */,
+				D368D81F191C995C0037CDE1 /* BQGroundNode.m */,
+			);
+			name = Ground;
+			sourceTree = "<group>";
+		};
+		D368D823191CA1070037CDE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93A77847191D20CC00806106 /* holy.mp3 */,
+				93A77845191D1F0600806106 /* 79__plagasul__long-scream.mp3 */,
+				D368D838191CA7490037CDE1 /* game_loop.mp3 */,
+				D368D824191CA1070037CDE1 /* bump.mp3 */,
+				D368D825191CA1070037CDE1 /* coin.mp3 */,
+				93A77849191D21D700806106 /* jump.mp3 */,
+				D368D827191CA1070037CDE1 /* punch.mp3 */,
+				D368D828191CA1070037CDE1 /* title.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3FA7AB2191BE350001F2B47 = {
+			isa = PBXGroup;
+			children = (
+				D3FA7AC6191BE350001F2B47 /* BlogQuest */,
+				D3FA7AEA191BE350001F2B47 /* BlogQuestTests */,
+				D3FA7ABD191BE350001F2B47 /* Frameworks */,
+				D3FA7ABC191BE350001F2B47 /* Products */,
+				1DE7711A482E4700A1EE0F7E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FA7ABC191BE350001F2B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA7ABB191BE350001F2B47 /* BlogQuest.app */,
+				D3FA7AE3191BE350001F2B47 /* BlogQuestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FA7ABD191BE350001F2B47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D368D82E191CA1E00037CDE1 /* AVFoundation.framework */,
+				D3FA7ABE191BE350001F2B47 /* Foundation.framework */,
+				D3FA7AC0191BE350001F2B47 /* CoreGraphics.framework */,
+				D3FA7AC2191BE350001F2B47 /* UIKit.framework */,
+				D3FA7AC4191BE350001F2B47 /* SpriteKit.framework */,
+				D3FA7AE4191BE350001F2B47 /* XCTest.framework */,
+				D72C374EF3FF4EA49975B489 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FA7AC6191BE350001F2B47 /* BlogQuest */ = {
+			isa = PBXGroup;
+			children = (
+				9382F17A191D05EA00B914E8 /* Subviews */,
+				D3FA7ACF191BE350001F2B47 /* BQAppDelegate.h */,
+				D3FA7AD0191BE350001F2B47 /* BQAppDelegate.m */,
+				939A830B191C46AA00D911DC /* BQCollisions.h */,
+				939A830C191C46AB00D911DC /* BQCollisions.m */,
+				D3FA7AD5191BE350001F2B47 /* BQRootViewController.h */,
+				D3FA7AD6191BE350001F2B47 /* BQRootViewController.m */,
+				D3FA7AFE191BE4DF001F2B47 /* Nodes */,
+				9382F174191CC52600B914E8 /* Scenes */,
+				93F069C0191C688400B66837 /* Tumblr */,
+				D3FA7AD2191BE350001F2B47 /* Main.storyboard */,
+				D3FA7AC7191BE350001F2B47 /* Supporting Files */,
+				9382F178191CC88E00B914E8 /* ArcadepixPlus.ttf */,
+				D368D840191D00460037CDE1 /* SKAction+BlogQuest.h */,
+				D368D841191D00460037CDE1 /* SKAction+BlogQuest.m */,
+			);
+			path = BlogQuest;
+			sourceTree = "<group>";
+		};
+		D3FA7AC7191BE350001F2B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D368D843191D12340037CDE1 /* intro_movie.mp4 */,
+				D368D823191CA1070037CDE1 /* Resources */,
+				D3BC9703191C3C2B00CD5428 /* Images.xcassets */,
+				D3FA7AC8191BE350001F2B47 /* BlogQuest-Info.plist */,
+				D3FA7AC9191BE350001F2B47 /* InfoPlist.strings */,
+				D3FA7ACC191BE350001F2B47 /* main.m */,
+				D3FA7ACE191BE350001F2B47 /* BlogQuest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3FA7AEA191BE350001F2B47 /* BlogQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA7AF0191BE350001F2B47 /* BlogQuestTests.m */,
+				D3FA7AEB191BE350001F2B47 /* Supporting Files */,
+			);
+			path = BlogQuestTests;
+			sourceTree = "<group>";
+		};
+		D3FA7AEB191BE350001F2B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA7AEC191BE350001F2B47 /* BlogQuestTests-Info.plist */,
+				D3FA7AED191BE350001F2B47 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3FA7AFE191BE4DF001F2B47 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				D368D833191CA42D0037CDE1 /* SKNode+Audio.h */,
+				D368D834191CA42D0037CDE1 /* SKNode+Audio.m */,
+				D368D821191C99600037CDE1 /* Ground */,
+				D368D810191C99200037CDE1 /* Enemies */,
+				D368D80C191C98F90037CDE1 /* Background */,
+				D3E5B44D191C8F170021A7DC /* BQBlinkingLabelNode.h */,
+				D3E5B44E191C8F170021A7DC /* BQBlinkingLabelNode.m */,
+				93F06A24191C941900B66837 /* BQAvatarNode.h */,
+				93F06A25191C941900B66837 /* BQAvatarNode.m */,
+				93F069BD191C686800B66837 /* BQUserNode.h */,
+				93F069BE191C686800B66837 /* BQUserNode.m */,
+				939A8303191C3DC300D911DC /* Collectables */,
+				934BD66B191CAE8200C48F7E /* BQPhotoNode.h */,
+				934BD66C191CAE8200C48F7E /* BQPhotoNode.m */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FA7ABA191BE350001F2B47 /* BlogQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA7AF4191BE350001F2B47 /* Build configuration list for PBXNativeTarget "BlogQuest" */;
+			buildPhases = (
+				31E853494DB1423EBF019B2A /* Check Pods Manifest.lock */,
+				D3FA7AB7191BE350001F2B47 /* Sources */,
+				D3FA7AB8191BE350001F2B47 /* Frameworks */,
+				D3FA7AB9191BE350001F2B47 /* Resources */,
+				68FBFA3EEFC5401F9417D1D2 /* Copy Pods Resources */,
+				448CAF9882F1CDDB8F6FBCD5 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogQuest;
+			productName = BlogQuest;
+			productReference = D3FA7ABB191BE350001F2B47 /* BlogQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FA7AE2191BE350001F2B47 /* BlogQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA7AF7191BE350001F2B47 /* Build configuration list for PBXNativeTarget "BlogQuestTests" */;
+			buildPhases = (
+				D3FA7ADF191BE350001F2B47 /* Sources */,
+				D3FA7AE0191BE350001F2B47 /* Frameworks */,
+				D3FA7AE1191BE350001F2B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FA7AE9191BE350001F2B47 /* PBXTargetDependency */,
+			);
+			name = BlogQuestTests;
+			productName = BlogQuestTests;
+			productReference = D3FA7AE3191BE350001F2B47 /* BlogQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FA7AB3191BE350001F2B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BQ;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					D3FA7ABA191BE350001F2B47 = {
+						DevelopmentTeam = 84Q69XA6W4;
+					};
+					D3FA7AE2191BE350001F2B47 = {
+						TestTargetID = D3FA7ABA191BE350001F2B47;
+					};
+				};
+			};
+			buildConfigurationList = D3FA7AB6191BE350001F2B47 /* Build configuration list for PBXProject "BlogQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FA7AB2191BE350001F2B47;
+			productRefGroup = D3FA7ABC191BE350001F2B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FA7ABA191BE350001F2B47 /* BlogQuest */,
+				D3FA7AE2191BE350001F2B47 /* BlogQuestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FA7AB9191BE350001F2B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA7ACB191BE350001F2B47 /* InfoPlist.strings in Resources */,
+				D368D829191CA1070037CDE1 /* bump.mp3 in Resources */,
+				9382F179191CC88E00B914E8 /* ArcadepixPlus.ttf in Resources */,
+				93A77848191D20CC00806106 /* holy.mp3 in Resources */,
+				D368D839191CA7490037CDE1 /* game_loop.mp3 in Resources */,
+				93A77846191D1F0600806106 /* 79__plagasul__long-scream.mp3 in Resources */,
+				D368D844191D12340037CDE1 /* intro_movie.mp4 in Resources */,
+				D3BC9704191C3C2B00CD5428 /* Images.xcassets in Resources */,
+				93A7784A191D21D700806106 /* jump.mp3 in Resources */,
+				D368D82C191CA1070037CDE1 /* punch.mp3 in Resources */,
+				D3FA7AD4191BE350001F2B47 /* Main.storyboard in Resources */,
+				D368D82A191CA1070037CDE1 /* coin.mp3 in Resources */,
+				D368D82D191CA1070037CDE1 /* title.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA7AE1191BE350001F2B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA7AEF191BE350001F2B47 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31E853494DB1423EBF019B2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		448CAF9882F1CDDB8F6FBCD5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68FBFA3EEFC5401F9417D1D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FA7AB7191BE350001F2B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939A830D191C46AB00D911DC /* BQCollisions.m in Sources */,
+				D368D820191C995C0037CDE1 /* BQGroundNode.m in Sources */,
+				D368D835191CA42D0037CDE1 /* SKNode+Audio.m in Sources */,
+				D3FA7AD7191BE350001F2B47 /* BQRootViewController.m in Sources */,
+				934BD661191C9B9F00C48F7E /* BQFolloweeNode.m in Sources */,
+				934BD66D191CAE8200C48F7E /* BQPhotoNode.m in Sources */,
+				939A830A191C464D00D911DC /* BQCoinNode.m in Sources */,
+				D3E5B44F191C8F170021A7DC /* BQBlinkingLabelNode.m in Sources */,
+				D368D816191C99310037CDE1 /* BQEnemyNode.m in Sources */,
+				93F06A23191C7A9A00B66837 /* BQCredentials.m in Sources */,
+				934BD664191CA22500C48F7E /* BQTumblrDataAggregator.m in Sources */,
+				D368D842191D00460037CDE1 /* SKAction+BlogQuest.m in Sources */,
+				9382F171191CBD3C00B914E8 /* BQVideoScene.m in Sources */,
+				93F069BF191C686800B66837 /* BQUserNode.m in Sources */,
+				D3FA7ADA191BE350001F2B47 /* BQMainScene.m in Sources */,
+				934BD667191CA32800C48F7E /* BQPost.m in Sources */,
+				934BD66A191CA46500C48F7E /* BQDashboardPhotoPostAggregationOperation.m in Sources */,
+				9382F177191CC67400B914E8 /* BQHUDView.m in Sources */,
+				93F06A26191C941900B66837 /* BQAvatarNode.m in Sources */,
+				D3FA7ACD191BE350001F2B47 /* main.m in Sources */,
+				D368D815191C99310037CDE1 /* BQEnemyManager.m in Sources */,
+				D3FA7AD1191BE350001F2B47 /* BQAppDelegate.m in Sources */,
+				D3E5B452191C8F2B0021A7DC /* BQIntroScene.m in Sources */,
+				D368D80F191C99080037CDE1 /* BQBackgroundNode.m in Sources */,
+				939A8310191C56B900D911DC /* BQCollectableManager.m in Sources */,
+				9382F17D191D06DC00B914E8 /* BQGameOverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA7ADF191BE350001F2B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA7AF1191BE350001F2B47 /* BlogQuestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3FA7AE9191BE350001F2B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FA7ABA191BE350001F2B47 /* BlogQuest */;
+			targetProxy = D3FA7AE8191BE350001F2B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3FA7AC9191BE350001F2B47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FA7ACA191BE350001F2B47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3FA7AD2191BE350001F2B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FA7AD3191BE350001F2B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FA7AED191BE350001F2B47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FA7AEE191BE350001F2B47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FA7AF2191BE350001F2B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3FA7AF3191BE350001F2B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3FA7AF5191BE350001F2B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C9AA1A42661368D874279D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogQuest/BlogQuest-Prefix.pch";
+				INFOPLIST_FILE = "BlogQuest/BlogQuest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tumblr.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3FA7AF6191BE350001F2B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255C2DE4DB9139223A012311 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tumblr Inc";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogQuest/BlogQuest-Prefix.pch";
+				INFOPLIST_FILE = "BlogQuest/BlogQuest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tumblr.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F0392B8C-334A-44ED-AB3A-9F75AAAAFFEB";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3FA7AF8191BE350001F2B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogQuest.app/BlogQuest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogQuest/BlogQuest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlogQuestTests/BlogQuestTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tumblr.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D3FA7AF9191BE350001F2B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogQuest.app/BlogQuest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogQuest/BlogQuest-Prefix.pch";
+				INFOPLIST_FILE = "BlogQuestTests/BlogQuestTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tumblr.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FA7AB6191BE350001F2B47 /* Build configuration list for PBXProject "BlogQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA7AF2191BE350001F2B47 /* Debug */,
+				D3FA7AF3191BE350001F2B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FA7AF4191BE350001F2B47 /* Build configuration list for PBXNativeTarget "BlogQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA7AF5191BE350001F2B47 /* Debug */,
+				D3FA7AF6191BE350001F2B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FA7AF7191BE350001F2B47 /* Build configuration list for PBXNativeTarget "BlogQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA7AF8191BE350001F2B47 /* Debug */,
+				D3FA7AF9191BE350001F2B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FA7AB3191BE350001F2B47 /* Project object */;
+}

@@ -1,0 +1,34 @@
+PODS:
+  - JXHTTP (3.0.2)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - Spectacles (1.0.1)
+  - TMTumblrSDK (4.0.3):
+    - TMTumblrSDK/Activity (= 4.0.3)
+    - TMTumblrSDK/APIClient (= 4.0.3)
+    - TMTumblrSDK/AppClient (= 4.0.3)
+    - TMTumblrSDK/Core (= 4.0.3)
+  - TMTumblrSDK/Activity (4.0.3)
+  - TMTumblrSDK/APIClient (4.0.3):
+    - JXHTTP
+    - TMTumblrSDK/APIClient/Authentication (= 4.0.3)
+  - TMTumblrSDK/APIClient/Authentication (4.0.3):
+    - JXHTTP
+    - TMTumblrSDK/Core
+  - TMTumblrSDK/AppClient (4.0.3):
+    - TMTumblrSDK/Core
+  - TMTumblrSDK/Core (4.0.3):
+    - Spectacles (~> 1.0)
+
+DEPENDENCIES:
+  - SDWebImage (= 3.7.1)
+  - TMTumblrSDK
+
+SPEC CHECKSUMS:
+  JXHTTP: c37120f210cd2dfcb3470d70239f5253335e2f1a
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  Spectacles: 8dc60711140320653724560e2d6bbb8a8f0940e4
+  TMTumblrSDK: a9ba0761d098cf6389cfbbe8d915736f01758609
+
+COCOAPODS: 0.39.0
