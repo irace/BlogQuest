@@ -18,8 +18,6 @@ We meant to finish this and put it on the store but never did 😬. Not sure how
 * [Zack Sultan](https://twitter.com/zacksultan)
 * [Corin Tracthman](https://twitter.com/corintrachtman)
 
-## About
-Personal site, will eventually contain information about various projects I hope to work on.
-
 ## License
+
 Available for use under the MIT license: [http://bryan.mit-license.org](http://bryan.mit-license.org)
