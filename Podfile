@@ -1,8 +1,10 @@
-platform :ios, '7.0'
+platform :ios, :deployment_target => '7.1'
 
 inhibit_all_warnings!
 
-xcodeproj 'BlogQuest/BlogQuest.xcodeproj'
+project 'BlogQuest/BlogQuest.xcodeproj'
 
-pod 'TMTumblrSDK'
-pod 'SDWebImage', '3.7.1'
+target 'BlogQuest' do
+  pod 'TMTumblrSDK'
+  pod 'SDWebImage', '3.7.1'
+end

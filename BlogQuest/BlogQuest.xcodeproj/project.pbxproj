@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D479F77D63449D99634A0A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D72C374EF3FF4EA49975B489 /* libPods.a */; };
+		911F009CA03770FE81B97458 /* libPods-BlogQuest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE136C544C490A9B8157EBE /* libPods-BlogQuest.a */; };
 		934BD661191C9B9F00C48F7E /* BQFolloweeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD660191C9B9F00C48F7E /* BQFolloweeNode.m */; };
 		934BD664191CA22500C48F7E /* BQTumblrDataAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD663191CA22500C48F7E /* BQTumblrDataAggregator.m */; };
 		934BD667191CA32800C48F7E /* BQPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 934BD666191CA32800C48F7E /* BQPost.m */; };
@@ -70,8 +70,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		255C2DE4DB9139223A012311 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		85C9AA1A42661368D874279D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE136C544C490A9B8157EBE /* libPods-BlogQuest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogQuest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		934BD65E191C9A3600C48F7E /* BQCollectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQCollectable.h; path = Source/BQCollectable.h; sourceTree = "<group>"; };
 		934BD65F191C9B9F00C48F7E /* BQFolloweeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQFolloweeNode.h; path = Source/BQFolloweeNode.h; sourceTree = "<group>"; };
 		934BD660191C9B9F00C48F7E /* BQFolloweeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQFolloweeNode.m; path = Source/BQFolloweeNode.m; sourceTree = "<group>"; };
@@ -105,6 +104,7 @@
 		93F06A22191C7A9A00B66837 /* BQCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQCredentials.m; path = Source/BQCredentials.m; sourceTree = "<group>"; };
 		93F06A24191C941900B66837 /* BQAvatarNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQAvatarNode.h; sourceTree = "<group>"; };
 		93F06A25191C941900B66837 /* BQAvatarNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQAvatarNode.m; sourceTree = "<group>"; };
+		B934B30FA4333EED8AA6702F /* Pods-BlogQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogQuest.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlogQuest/Pods-BlogQuest.debug.xcconfig"; sourceTree = "<group>"; };
 		D368D80D191C99080037CDE1 /* BQBackgroundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQBackgroundNode.h; path = Source/BQBackgroundNode.h; sourceTree = "<group>"; };
 		D368D80E191C99080037CDE1 /* BQBackgroundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQBackgroundNode.m; path = Source/BQBackgroundNode.m; sourceTree = "<group>"; };
 		D368D811191C99310037CDE1 /* BQEnemyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQEnemyManager.h; path = Source/BQEnemyManager.h; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 		D3FA7AEC191BE350001F2B47 /* BlogQuestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogQuestTests-Info.plist"; sourceTree = "<group>"; };
 		D3FA7AEE191BE350001F2B47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3FA7AF0191BE350001F2B47 /* BlogQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogQuestTests.m; sourceTree = "<group>"; };
-		D72C374EF3FF4EA49975B489 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BE753B7583D444365E6F08 /* Pods-BlogQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogQuest.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BlogQuest/Pods-BlogQuest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +163,7 @@
 				D3FA7AC3191BE350001F2B47 /* UIKit.framework in Frameworks */,
 				D3FA7AC5191BE350001F2B47 /* SpriteKit.framework in Frameworks */,
 				D3FA7ABF191BE350001F2B47 /* Foundation.framework in Frameworks */,
-				4D479F77D63449D99634A0A2 /* libPods.a in Frameworks */,
+				911F009CA03770FE81B97458 /* libPods-BlogQuest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,15 +180,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1DE7711A482E4700A1EE0F7E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				85C9AA1A42661368D874279D /* Pods.debug.xcconfig */,
-				255C2DE4DB9139223A012311 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		9382F174191CC52600B914E8 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +233,15 @@
 			name = Tumblr;
 			sourceTree = "<group>";
 		};
+		C23627512402025FFBE48820 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B934B30FA4333EED8AA6702F /* Pods-BlogQuest.debug.xcconfig */,
+				F1BE753B7583D444365E6F08 /* Pods-BlogQuest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D368D80C191C98F90037CDE1 /* Background */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +293,7 @@
 				D3FA7AEA191BE350001F2B47 /* BlogQuestTests */,
 				D3FA7ABD191BE350001F2B47 /* Frameworks */,
 				D3FA7ABC191BE350001F2B47 /* Products */,
-				1DE7711A482E4700A1EE0F7E /* Pods */,
+				C23627512402025FFBE48820 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -315,7 +315,7 @@
 				D3FA7AC2191BE350001F2B47 /* UIKit.framework */,
 				D3FA7AC4191BE350001F2B47 /* SpriteKit.framework */,
 				D3FA7AE4191BE350001F2B47 /* XCTest.framework */,
-				D72C374EF3FF4EA49975B489 /* libPods.a */,
+				5DE136C544C490A9B8157EBE /* libPods-BlogQuest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -402,12 +402,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3FA7AF4191BE350001F2B47 /* Build configuration list for PBXNativeTarget "BlogQuest" */;
 			buildPhases = (
-				31E853494DB1423EBF019B2A /* Check Pods Manifest.lock */,
+				7A8E9217D64887B4F7B6BE90 /* [CP] Check Pods Manifest.lock */,
 				D3FA7AB7191BE350001F2B47 /* Sources */,
 				D3FA7AB8191BE350001F2B47 /* Frameworks */,
 				D3FA7AB9191BE350001F2B47 /* Resources */,
-				68FBFA3EEFC5401F9417D1D2 /* Copy Pods Resources */,
-				448CAF9882F1CDDB8F6FBCD5 /* Embed Pods Frameworks */,
+				1200411E77EDCAD23EE0AE87 /* [CP] Embed Pods Frameworks */,
+				C4FC796A9BDE77487305DBC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -444,10 +444,11 @@
 			attributes = {
 				CLASSPREFIX = BQ;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				ORGANIZATIONNAME = ___FULLUSERNAME___;
 				TargetAttributes = {
 					D3FA7ABA191BE350001F2B47 = {
-						DevelopmentTeam = 84Q69XA6W4;
+						DevelopmentTeam = 9ZL72R3U2X;
+						ProvisioningStyle = Automatic;
 					};
 					D3FA7AE2191BE350001F2B47 = {
 						TestTargetID = D3FA7ABA191BE350001F2B47;
@@ -505,49 +506,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31E853494DB1423EBF019B2A /* Check Pods Manifest.lock */ = {
+		1200411E77EDCAD23EE0AE87 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlogQuest/Pods-BlogQuest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		448CAF9882F1CDDB8F6FBCD5 /* Embed Pods Frameworks */ = {
+		7A8E9217D64887B4F7B6BE90 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlogQuest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		68FBFA3EEFC5401F9417D1D2 /* Copy Pods Resources */ = {
+		C4FC796A9BDE77487305DBC6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-BlogQuest/Pods-BlogQuest-resources.sh",
+				"${PODS_ROOT}/TMTumblrSDK/TMTumblrSDK/Activity/UIActivityTumblr.png",
+				"${PODS_ROOT}/TMTumblrSDK/TMTumblrSDK/Activity/UIActivityTumblr@2x.png",
+				"${PODS_ROOT}/TMTumblrSDK/TMTumblrSDK/Activity/UIActivityTumblr@2x~ipad.png",
+				"${PODS_ROOT}/TMTumblrSDK/TMTumblrSDK/Activity/UIActivityTumblr~ipad.png",
+				"${PODS_ROOT}/TMTumblrSDK/TMTumblrSDK/Activity/UIActivityTumblr~ipad@2x.png",
+				"${PODS_ROOT}/TMTumblrSDK/TMTumblrSDK.podspec.json",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlogQuest/Pods-BlogQuest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -705,17 +729,28 @@
 		};
 		D3FA7AF5191BE350001F2B47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85C9AA1A42661368D874279D /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B934B30FA4333EED8AA6702F /* Pods-BlogQuest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZL72R3U2X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlogQuest/BlogQuest-Prefix.pch";
 				INFOPLIST_FILE = "BlogQuest/BlogQuest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tumblr.${PRODUCT_NAME:rfc1034identifier}";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/JXHTTP\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Spectacles\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/TMTumblrSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.irace.BlogQuest;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -724,19 +759,23 @@
 		};
 		D3FA7AF6191BE350001F2B47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 255C2DE4DB9139223A012311 /* Pods.release.xcconfig */;
+			baseConfigurationReference = F1BE753B7583D444365E6F08 /* Pods-BlogQuest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tumblr Inc";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZL72R3U2X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlogQuest/BlogQuest-Prefix.pch";
 				INFOPLIST_FILE = "BlogQuest/BlogQuest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tumblr.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = me.irace.BlogQuest;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "F0392B8C-334A-44ED-AB3A-9F75AAAAFFEB";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;

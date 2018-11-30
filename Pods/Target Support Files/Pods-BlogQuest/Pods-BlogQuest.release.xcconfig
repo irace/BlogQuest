@@ -1,5 +1,9 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JXHTTP" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/Spectacles" "${PODS_ROOT}/Headers/Public/TMTumblrSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JXHTTP" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/Spectacles" "$PODS_CONFIGURATION_BUILD_DIR/TMTumblrSDK"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/JXHTTP" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/Spectacles" -isystem "${PODS_ROOT}/Headers/Public/TMTumblrSDK"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"JXHTTP" -l"SDWebImage" -l"Spectacles" -l"TMTumblrSDK" -framework "Foundation" -framework "ImageIO" -weak_framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/..
 PODS_ROOT = ${SRCROOT}/../Pods
