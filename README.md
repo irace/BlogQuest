@@ -16,7 +16,7 @@ We meant to finish this and put it on the store but never did 😬. Not sure how
 ### Design
 
 * [Zack Sultan](https://twitter.com/zacksultan)
-* [Corin Tracthman](https://twitter.com/corintrachtman)
+* [Corin Trachtman](https://twitter.com/corintrachtman)
 
 ## License
 
